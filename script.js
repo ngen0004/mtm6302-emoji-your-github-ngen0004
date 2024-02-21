@@ -19,7 +19,7 @@ let emojisGallery = document.getElementById('emojisGallery')
 for (const code of emojisCode){
     arr.push(`
         <p id="emj">
-            <span>${String.fromCodePoint(code)}</span><br>
+            <span>&#${code}</span><br>
             <code>${code}</code>
          </p>
     `)
