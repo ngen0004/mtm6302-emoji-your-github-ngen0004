@@ -1,0 +1,19 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+body{
+    border: 3px solid black ;
+    text-align: center;
+}
+#emj{
+    font-size: 2rem;
+    border: 1px solid silver;
+    margin: 10px;
+ }
+code{
+    font-size: 15px;
+    background-color: rgb(235, 231, 231)
+}
