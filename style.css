@@ -1,19 +1,21 @@
 body{
-    border: 3px solid black ;
+    border: 3px solid black ;    
     text-align: center;
-    margin: 50px;
+    margin: 100px;
 }
 .wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
-    margin: 30px;
+    margin: 100px;   
 }
 
 #emj{
     font-size: 2rem;
     border: 1px solid silver;
+    padding: 10px;
     margin: 10px;
+    
  }
 code{
     font-size: 15px;
@@ -21,6 +23,9 @@ code{
 }
 
 @media screen and (max-width: 600px){
+    body{
+        margin: auto;
+    }
     .wrapper{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(6, 1fr);
